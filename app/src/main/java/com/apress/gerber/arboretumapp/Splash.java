@@ -15,13 +15,6 @@ public class Splash extends Activity {
         setContentView(R.layout.splash);
 
         rLayout = (RelativeLayout) findViewById(R.id.relativelayout);
-/*
-        ImageView loading = new ImageView(this);
-        loading.setImageResource(R.drawable.ornamental_1353194_960_720);
-        loading.setVisibility(View.VISIBLE);
-        loading.setImageLevel(1);
-
-        rLayout.addView(loading);*/
     }
 
 }
