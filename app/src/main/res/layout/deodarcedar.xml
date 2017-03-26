@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/information_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nDeodar Cedar\n"
+            android:id="@+id/deodarCedarTitle"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <ImageView android:id="@+id/deodarCedarImg"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:src="@drawable/deodarCedar"
+            style="@style/myImageView"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/deodarCedarSubtitle1"
+            android:layout_gravity="center_horizontal"
+            android:text="\nA Tree of Legends\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="In Sanskrit, the name “deodar” translates to the “timber of the gods.” It is referred to in several Hindu legends, and is prized by the Hindu people. Hindu temples are constructed from the wood of deodar cedars, and the trees may also be planted around the nearby area. The fragrant smoke of the wood is used for inspiration by female oracles in the Hindu Kush mountain range (Cedrus deodara, 2016)."
+            android:id="@+id/text1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/deodarCedarSubtitle2"
+            android:layout_gravity="center_horizontal"
+            android:text="\nMultitude of Uses\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The wood of the deodar cedar is popular for many reasons. Its durable heartwood has been used to make railroad ties, bridges, and even pencils. In ancient Egypt, the wood was used for sarcophagi. The resin and bark of the tree have a massive number of medicinal properties; it has been used as an anti-inflammatory and antioxidant, a treatment for fevers, heart and urinary disorders, insomnia, diabetes, skin conditions, joint conditions, is a remedy for tuberculosis and bronchitis, and even an antidote for snakebites (Cedrus deodara, 2016)."
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/deodarCedarSubtitle3"
+            android:layout_gravity="center_horizontal"
+            android:text="\nCultural Snippet\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The deodar cedar is the national tree of Pakistan and is used for timber in Afghanistan, Pakistan, India and Nepal. In Altadena, California there is an old tradition involving decorating 134 deodar cedar trees for Christmas (Cedrus deodara, 2016)."
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/deodarCedarSubtitle4"
+            android:layout_gravity="center_horizontal"
+            android:text="\nThe Science Corner\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Though the deodar cedar is native to the Himalayas, it is able to survive easily in the southeastern corner of the United States. It is a popular ornamental plant and landscaping tree, and is an evergreen. The tree is both male and female (monoecious) and is said to live to be 1000 years old (Cedrus deodara, 2016)."
+            android:id="@+id/text4"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/deodarCedarSubtitle5"
+            android:layout_gravity="center_horizontal"
+            android:text="\nResources Cited\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center"
+            android:text="Cedrus deodara. 2016. [Internet]. The University of Arizona; [cited 2017 Feb 17]. Available from https://apps.cals.arizona.edu/arboretum/taxon.aspx?id=61"
+            android:id="@+id/text5"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

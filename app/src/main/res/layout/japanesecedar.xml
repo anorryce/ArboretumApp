@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@drawable/information_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nJapanese Cedar \n(Cryptomeria japonica)\n"
+            android:id="@+id/Title"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <ImageView android:id="@+id/liveOakImg"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:src="@drawable/cherrytree"
+            style="@style/myImageView"
+            android:layout_gravity="center_horizontal"
+            android:rotation="180"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle1"
+            android:layout_gravity="center_horizontal"
+            android:text="\nCulture\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The Japanese cedar tree is native to most regions of Japan, with the exception of the northernmost region, Hokkaido. In Japan, the tree is called by the name sugi. This tree has been introduced to several other countries including China, Taiwan, and North America  (Earle 2012)."
+            android:id="@+id/text1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle2"
+            android:layout_gravity="center_horizontal"
+            android:text="\nAn Old Relative\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The Jōmon sugi, located on an island called Yakushima, is the oldest tree in Japan. Many claim that the tree is over 7000 years old, though scientists estimate the tree is actually somewhere between 3000 and 1780 years old (Earle 2012)."
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle3"
+            android:layout_gravity="center_horizontal"
+            android:text="\nWhat it can do\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The cedar trees are common ornamental plants around shrines and gardens in Japan because of their tall, but relatively narrow frame. In addition to being a common ornamental plant, the Japanese cedar is also used for timber (Earle 2012)."
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle4"
+            android:layout_gravity="center_horizontal"
+            android:text="\nThe Science Corner\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="This tree is an evergreen, meaning that it does not lose its leaves seasonally. It contains both seed and pollen cones making it both male and female (monoecious). It can live to be very old, and will grow to around 200 feet with a truck that is 10 feet in diameter. It loves full sunlight, but it is able to live in partial shade (Earle 2012)."
+            android:id="@+id/text4"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle5"
+            android:layout_gravity="center_horizontal"
+            android:text="\nResources Cited\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Earle CJ. 2012. Cryptomeria japonica. [Internet]. The Gymnosperm Database; [cited 2017 Jan 17]. Available from http://www.conifers.org/cu/Cryptomeria.php\n"
+            android:id="@+id/text5"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

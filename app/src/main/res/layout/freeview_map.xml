@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/Map">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkpoint1"
+        android:text="1"
+        android:textColor="#FF0000"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkpoint2"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:text="2"
+        android:textColor="#00FF00"
+        android:layout_marginBottom="14dp"
+        android:layout_alignBottom="@+id/checkpoint1"
+        android:layout_toRightOf="@+id/checkpoint1"
+        android:layout_toEndOf="@+id/checkpoint1"
+        android:onClick="onClick"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkpoint3"
+        android:text="3"
+        android:textColor="#00FF00"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/checkpoint2"
+        android:layout_alignLeft="@+id/checkpoint2"
+        android:layout_alignStart="@+id/checkpoint2"
+        android:onClick="onClick"
+        android:clickable="true"/>
+</RelativeLayout>

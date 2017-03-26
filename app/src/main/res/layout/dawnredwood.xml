@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@drawable/information_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nDawn Redwood \n(Metasequoia glyptostroboides)\n"
+            android:id="@+id/Title"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <ImageView android:id="@+id/liveOakImg"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:src="@drawable/cherrytree"
+            style="@style/myImageView"
+            android:layout_gravity="center_horizontal"
+            android:rotation="180"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle1"
+            android:layout_gravity="center_horizontal"
+            android:text="\nDawning of the Metasequoia\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The dawn redwood was first described in 1941 by a Japanese paleobotanist. It was first thought to be extinct, but eight years later, the first live tree was discovered in China. Looking further into the fossil records, it was discovered that 100 million years ago, the tree once spanned across the northern regions of North America and Eurasia. In fact, it was one of the most abundant plant fossils in the Late Cretaceous period. Protection efforts in China prevented the species from reaching extinction, but it remains an endangered species (LePage et al. 2005)."
+            android:id="@+id/text1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle2"
+            android:layout_gravity="center_horizontal"
+            android:text="\nRedwoods in the Carolinas\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Doug Hanks’s conservation project, Crescent Ridge Dawn Redwoods Preserve, aims to introduce dawn redwoods back to North America. The project is located in North Carolina’s Sauraton Mountains, though the exact location of the park has not yet been released. It is tentatively scheduled to open to the public in 2035 (Hanks 2005)."
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle3"
+            android:layout_gravity="center_horizontal"
+            android:text="\nThe Science Corner\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Like other redwoods, the dawn redwood can reach incredible heights over 100 feet. This tree is deciduous, shedding its leaves every winter, and is both male and female (monoecious). It can live in most regions across the United States and will grow alongside the Virginia pine and Eastern redbud (also located in Lander’s shade garden). In China, the dawn redwood earned the name shui-sa, or water fir, due to its ability to live in standing water (Hanks 2005)."
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle4"
+            android:layout_gravity="center_horizontal"
+            android:text="\nResources Cited\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="LePage BA, Williams CJ, Yang H, editors. 2005. The geobiology and ecology of Metasequoia.  Norwell (MA): Springer.\n
+Hanks D. 2005. [Internet]. Crescent Ridge Dawn Redwoods Preserve; [cited 2017 Feb 13]. Available from http://www.dawnredwood.org/\n"
+            android:id="@+id/text4"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

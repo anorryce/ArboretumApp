@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@drawable/information_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nHigan ‘Autumnalis’ Cherry Tree\n (Prunus subhirtella var autumnalis) \n"
+            android:id="@+id/Title"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <ImageView android:id="@+id/higanCherryImg"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:src="@drawable/cherrytree"
+            style="@style/myImageView"
+            android:layout_gravity="center_horizontal"
+            android:rotation="180"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle1"
+            android:layout_gravity="center_horizontal"
+            android:text="\nNational Cherry Blossom Festival\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Every year, Washington DC hosts a cherry blossom festival, and along the Tidal Basin, a wide number of cherry trees can be seen. The trees were donated to the United States by Japan in 1912. Thousands of cherry trees were donated, and included in the multitude of species, is the autumnalis variety of the higan cherry tree (Beyond the Tidal Basin).  "
+            android:id="@+id/text1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle2"
+            android:layout_gravity="center_horizontal"
+            android:text="\nThe Science Corner\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Though the autumnalis higan cherry tree is native to Japan, it is able to grow in many other regions as an ornamental plant. It is deciduous and this particular variety of cherry tree obtained its name by blooming twice a year – once in the spring, and again in the fall. It is deciduous, and the autumnalis variety has a more upright frame compared to other, weeping varieties of the higan cherry tree. The tree is fairly short, reaching a maximum height at around 30 feet, but it makes up for its short stature by the large spread of its limbs (Beyond the Tidal Basin; Prunus subhirtella)."
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle3"
+            android:layout_gravity="center_horizontal"
+            android:text="\nResources Cited\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Beyond the Tidal Basin: Introducing Other Great Flowering Cherry Trees. [Internet]. U.S. National Arboretum; [cited 2017 Feb 19]. Available from http://www.usna.usda.gov/Education/cherry%20booklet031213%20web.pdf \n\n Prunus subhirtella var. pendula - Weeping Higan Cherry. [Internet]. Ohio State University; [cited 2017 Feb 19]. Available from http://www.plantfacts.osu.edu/pdf/0247-908.pdf
+"
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

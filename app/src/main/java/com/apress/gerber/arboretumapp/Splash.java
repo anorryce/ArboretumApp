@@ -18,9 +18,8 @@ public class Splash extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
 
-        final ImageView iv = (ImageView) findViewById(R.id.loading);
-        final Animation an = AnimationUtils.loadAnimation(getBaseContext(), R.anim.rotate);
-        final Animation an2 = AnimationUtils.loadAnimation(getBaseContext(), R.anim.abc_fade_out);
+        final ImageView iv = (ImageView) findViewById(R.id.imageView);
+        final Animation an = AnimationUtils.loadAnimation(getBaseContext(), R.anim.slide);
 
         iv.startAnimation(an);
         an.setAnimationListener(new Animation.AnimationListener() {
@@ -31,8 +30,6 @@ public class Splash extends Activity {
 
             @Override
             public void onAnimationEnd(Animation animation){
-                iv.startAnimation(an2);
-                finish();
                 startActivity(new Intent(Splash.this, MainActivity.class));
             }
 
@@ -41,7 +38,7 @@ public class Splash extends Activity {
 
             }
         });
-        rLayout = (RelativeLayout) findViewById(R.id.relativelayout);
+        rLayout = (RelativeLayout) findViewById(R.id.tablelayout);
     }
 
 }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@drawable/information_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nOvercup Oak \n(Quercus lyrata)\n"
+            android:id="@+id/Title"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <ImageView android:id="@+id/liveOakImg"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:src="@drawable/cherrytree"
+            style="@style/myImageView"
+            android:layout_gravity="center_horizontal"
+            android:rotation="180"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle1"
+            android:layout_gravity="center_horizontal"
+            android:text="\nA Tree of Many Names\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The Overcup Oak is native to wet regions within the Southeastern United States and is able to grow around the edges of swamps and bogs where there is standing water. Because of this, the Overcup oak is also commonly called by the names swamp post oak, swamp white oak, and water white oak (Solomon)."
+            android:id="@+id/text1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle2"
+            android:layout_gravity="center_horizontal"
+            android:text="\nThe Science Corner\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The tree is both male and female (monoecious), with the acorns being its fruit (Solomon). “Fruit” for a plant means anything that forms from a flower - including its nuts. A number of animal species including squirrels, deer, turkey, hogs and rodents will eat the acorns for food (Nesom 2000). Overcup oaks grow for around 400 years and will reach a maximum height between 60 and 90 feet with a trunk diameter around 27 inches. The tree is not commonly used for lumber because it often has numerous defects (Solomon)."
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle3"
+            android:layout_gravity="center_horizontal"
+            android:text="\nResources Cited\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Nesom G. 2000. Plant Guide: Overcup Oak. [Internet]. USDA Natural Resources Conservation Service; [cited 2017 Jan 19]. Available from www.plants.usda.gov/plantguide/pdf/pg_quly.pdf\n
+Solomon JD. Overcup Oak. [Internet]. USDA Forest Service: Northeastern Area State and Private Forestry; [cited 2017 Jan 19]. Available from https://www.na.fs.fed.us/spfo/pubs/silvics_manual/volume_2/quercus/lyrata.html\n"
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

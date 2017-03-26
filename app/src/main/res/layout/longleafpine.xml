@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@drawable/information_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nLongleaf Pine \n(Pinus palustris)\n"
+            android:id="@+id/Title"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <ImageView android:id="@+id/liveOakImg"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:src="@drawable/cherrytree"
+            style="@style/myImageView"
+            android:layout_gravity="center_horizontal"
+            android:rotation="180"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle1"
+            android:layout_gravity="center_horizontal"
+            android:text="\nEndangerment\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The longleaf pine was once a common tree in the Southeastern United States. Its habitat spanned 90 million acres, but logging, fire suppression, and clearing for agriculture have caused the annihilation of 97% of the longleaf pines. Luckily, there are efforts being made by the USDA and other organizations to restore this valuable tree (Boyer). Interestingly, fire is needed for the longleaf pine to thrive. Without frequent fires, hardwoods and other varieties of pine will out-compete the longleaf pine, erasing it from the area (Moore 2002)."
+            android:id="@+id/text1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle2"
+            android:layout_gravity="center_horizontal"
+            android:text="\nIts Many Uses\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Many parts of the longleaf pine are valuable. In nature, the tree helps to control erosion. The wood is commonly harvested for timber because it is straight and rarely has any sort of defects. In the past, the timber of the longleaf pines was used to build ships. The needles make good mulch and the resin can be harvested to create gum turpentine (Moore 2002)."
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle3"
+            android:layout_gravity="center_horizontal"
+            android:text="\nAnimals Love it too\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The bobwhite quail, white-tailed deer, wild turkey and fox squirrel love to make their homes in longleaf pine environments because of the grassy underbrush.  Mice, squirrels, and birds eat the seeds while hogs enjoy feasting on the roots of younger trees (Moore 2002; Boyer). "
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle4"
+            android:layout_gravity="center_horizontal"
+            android:text="\nResources Cited\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Boyer. Longleaf Pine. [Internet]. USDA Forest Service: Northeastern Area State and Private Forestry; [cited 2017 Jan 29]. Available from https://www.na.fs.fed.us/spfo/pubs/silvics_manual/Volume_1/pinus/palustris.html\n
+Longleaf Pine Initiative. [Internet]. USDA Natural Resources Conservation Service; [cited 2017 Jan 29]. Available from https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/programs/initiatives/?cid=nrcsdev11_023913\n
+Moore L. 2002. Plant Fact Sheet: Longleaf Pine. [Internet]. USDA Natural Resources Conservation Service; [cited 2017 Jan 29]. Available from https://plants.usda.gov/factsheet/pdf/fs_pipa2.pdf
+\n"
+            android:id="@+id/text4"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

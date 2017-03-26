@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@drawable/information_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nJapanese Pagoda Tree (Styphnolobium japonicum; formerly Sophora japonica)\n"
+            android:id="@+id/Title"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <ImageView android:id="@+id/liveOakImg"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:src="@drawable/cherrytree"
+            style="@style/myImageView"
+            android:layout_gravity="center_horizontal"
+            android:rotation="180"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle1"
+            android:layout_gravity="center_horizontal"
+            android:text="\nOrigins\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Despite the name Japanese pagoda tree, the tree actually originated in China. It became known as the Japanese pagoda tree because the first trees of its kind seen in the west were cultivated in Japan (International Tree Tour). "
+            android:id="@+id/text1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle2"
+            android:layout_gravity="center_horizontal"
+            android:text="\nMaking a Ship\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The Live oak wood has an intriguing place in history as a shipbuilding component. Perhaps the most famous ship to be built with the Live oak wood was the USS Constitution. The USS Constitution was one of the first warships commissioned in America and became infamous in the War of 1812 when the cannonballs fired at it bounced off its hard wooden hull. The ship became known as “Old Ironsides” and is still maintained and used by the Navy today (USS Constitution)."
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle3"
+            android:layout_gravity="center_horizontal"
+            android:text="\nMedicinal Properties\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The flowers of the Japanese pagoda tree contain Rutin, a substance that has anti-inflammatory and antioxidant properties (Japanese Pagoda). It may also be useful in preventing blood clots and aiding in the prevention of heart attacks and strokes, and has been used in traditional Chinese medicine. However, the pea-like fruits of the tree are toxic (International Tree Tour)."
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle4"
+            android:layout_gravity="center_horizontal"
+            android:text="\nIts Chinese History\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The Japanese Pagoda tree is the official tree of Beijing and is often planted around Buddhist temples. It may be used as a grave-maker for Buddhist monks, but interestingly, the tree is also said to be the home of demons. This rumor arose from Chinese folklore detailing the death of the last emperor of the Ming Dynasty. It is said that Emperor Chongzhen was said to have hanged himself from the limb of a pagoda tree as his palace was overtaken by peasants (Japanese Pagoda; International Tree Tour)."
+            android:id="@+id/text4"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle5"
+            android:layout_gravity="center_horizontal"
+            android:text="\nThe Science Corner\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="This tree is deciduous and flowers late in the summer from August to September. It can grow to be around 60 feet in height, and is a popular ornamental plant; however it is difficult to keep due to its weak wood. If not pruned often in adulthood, the wood will break during high winds and storms. While the bark of the trunk is brown, the bark of the branches takes on a unique yellow-green color (Japanese Pagoda; International Tree Tour)."
+            android:id="@+id/text5"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle6"
+            android:layout_gravity="center_horizontal"
+            android:text="\nResources Cited\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="International Tree Tour: Japanese Pagoda Tree. [Internet]. Suny Orange Community College; [cited 2017 Feb 12]. Available from http://www.sunyorange.edu/inttreetour/sophora_japonica.shtml\n
+Japanese Pagoda Tree (Scholar Tree). [Internet]. Yale University; [cited 2017 Feb 12]. Available from http://naturewalk.yale.edu/trees/fabaceae/sophora-japonica/japanese-pagoda-tree-scholar-tree-15\n"
+            android:id="@+id/text6"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>

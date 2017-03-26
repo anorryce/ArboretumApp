@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="@drawable/landingpage">
+    android:background="@drawable/leafyloading">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -11,10 +11,10 @@
         android:id="@+id/loading"
         android:layout_gravity="center_horizontal"
         android:visibility="visible"
-        android:maxWidth="80dp"
-        android:maxHeight="80dp"
-        android:minHeight="80dp"
-        android:minWidth="80dp"
+        android:maxWidth="20dp"
+        android:maxHeight="20dp"
+        android:minHeight="20dp"
+        android:minWidth="20dp"
         android:layout_marginBottom="78dp"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
@@ -22,6 +22,20 @@
         android:drawingCacheQuality="high"
         android:src="@drawable/loading"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:longClickable="false" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/leaf"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/loading"
+        android:layout_toStartOf="@+id/loading"
+        android:layout_marginRight="82dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginTop="264dp" />
+
 
 </RelativeLayout>

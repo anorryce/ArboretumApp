@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@drawable/information_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nLive Oak\n(Quercus virginiana)\n"
+            android:id="@+id/Title"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <ImageView android:id="@+id/liveOakImg"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:src="@drawable/cherrytree"
+            style="@style/myImageView"
+            android:layout_gravity="center_horizontal"
+            android:rotation="180"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle1"
+            android:layout_gravity="center_horizontal"
+            android:text="\nWhat It Can Do\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The Live oak is a tree with a wide variety of uses. In the distant past, the roots of the young trees were fried and eaten. The Houma Native American tribe would also use the bark for treating diarrhea. Its strong, durable wood was used for ship construction in the 18th and 19th centuries. Today, its wood is used for flooring and furniture. It is a common ornamental tree in many different areas (Goldman 2016). "
+            android:id="@+id/text1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle2"
+            android:layout_gravity="center_horizontal"
+            android:text="\nMaking a Ship\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The Live oak wood has an intriguing place in history as a shipbuilding component. Perhaps the most famous ship to be built with the Live oak wood was the USS Constitution. The USS Constitution was one of the first warships commissioned in America and became infamous in the War of 1812 when the cannonballs fired at it bounced off its hard wooden hull. The ship became known as “Old Ironsides” and is still maintained and used by the Navy today (USS Constitution)."
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle3"
+            android:layout_gravity="center_horizontal"
+            android:text="\nCharleston’s Angel Oak\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The most famous Live oak in South Carolina dwells on John’s Island. The tree is thought be between 300-400 years old, and some of its branches are so heavy that they now rest on the ground. It is only 65 feet tall, but its branches spread out over 2000 square yards. It was a symbol of encouragement to many African Americans during the Civil Rights movement due to its hardy branches that could withstand any storm (Dent 1997).
+"
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle4"
+            android:layout_gravity="center_horizontal"
+            android:text="\nThe Science Corner\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Live oaks are native to the Southeastern United States and are generally recognized for their large, sweeping branches and evergreen-like nature. Though the tree appears to be an evergreen at first glance, it is deciduous and does lose it leaves in early spring. The Live oak can grow to be 50-80 feet tall with massive diameters of more than 10 feet (Goldman 2016)."
+            android:id="@+id/text4"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Subtitle5"
+            android:layout_gravity="center_horizontal"
+            android:text="\nReferences Cited\n"
+            android:textStyle="bold|italic"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Dent T. 1997. Southern Journey: A Return to the Civil Rights Movement. New York (NY): William Morrow and Company, Inc.\n
+Goldman, DH. 2016.  Plant Guide: Live Oak. [Internet]. USDA Natural Resources Conservation Service; [cited 2017 Feb 13]. Available from https://plants.usda.gov/plantguide/pdf/pg_quvi.pdf\n
+USS Constitution. [Internet]. National Park Service; [cited 2017 Feb 5]. Available from https://www.nps.gov/bost/learn/historyculture/ussconst.htm
+"
+            android:id="@+id/text5"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000" />
+    </LinearLayout>
+</ScrollView>
