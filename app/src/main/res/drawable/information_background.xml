@@ -10,7 +10,7 @@
     </item>
 
     <item android:id="@+id/item_img">
-        <bitmap  android:src="@drawable/leafForInformationPage" />
+        <bitmap  android:src="@drawable/leafinformationpage" />
     </item>
 
 </layer-list>

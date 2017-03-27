@@ -22,10 +22,9 @@
 
         <ImageView android:id="@+id/liveOakImg"
             android:layout_width="300dp" android:layout_height="300dp"
-            android:src="@drawable/cherrytree"
-            style="@style/myImageView"
+            android:src="@drawable/longleafpine"
+            android:style="@style/myImageView"
             android:layout_gravity="center_horizontal"
-            android:rotation="180"
             android:gravity="center"
             android:scaleType="fitCenter" />
 

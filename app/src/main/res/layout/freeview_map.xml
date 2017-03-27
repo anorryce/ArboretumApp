@@ -1,45 +1,294 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomtoolbarmain"
     android:layout_width="match_parent"
-    android:background="@drawable/Map">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_content">
+        <!-- HEADER NAVIGATION -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/theme_green"
+            android:id="@+id/header">
+            <LinearLayout
+                android:id="@+id/header_menu_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/menu_left"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:text="Menu left" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/header_title"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/heading_text"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:text="Aboretum App" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/header_menu_right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/menu_right"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:text="Menu right" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- CONTENT -->
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@drawable/map">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkpoint1"
-        android:text="1"
-        android:textColor="#FF0000"
-        android:onClick="onClick"
-        android:clickable="true"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkpoint2"
-        android:layout_marginLeft="33dp"
-        android:layout_marginStart="33dp"
-        android:text="2"
-        android:textColor="#00FF00"
-        android:layout_marginBottom="14dp"
-        android:layout_alignBottom="@+id/checkpoint1"
-        android:layout_toRightOf="@+id/checkpoint1"
-        android:layout_toEndOf="@+id/checkpoint1"
-        android:onClick="onClick"
-        android:clickable="true"/>
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:text="1"
+                    android:id="@+id/checkpoint1"
+                    android:layout_gravity="left|center_vertical"
+                    android:clickable="true"
+                    android:minHeight="50dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="82dp"
+                    android:layout_marginBottom="8dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkpoint3"
-        android:text="3"
-        android:textColor="#00FF00"
-        android:layout_marginTop="11dp"
-        android:layout_below="@+id/checkpoint2"
-        android:layout_alignLeft="@+id/checkpoint2"
-        android:layout_alignStart="@+id/checkpoint2"
-        android:onClick="onClick"
-        android:clickable="true"/>
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:text="2"
+                    android:id="@+id/checkpoint2"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:minHeight="50dp"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="27dp"
+                    android:layout_marginRight="58dp" />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:text="3"
+                    android:id="@+id/checkpoint3"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:minHeight="50dp"
+                    android:textSize="20dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginRight="38dp" />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:text="4"
+                    android:id="@+id/checkpoint4"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:minHeight="50dp"
+                    android:textSize="20dp"
+                    android:layout_marginTop="67dp"
+                    android:layout_marginRight="5dp" />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:text="5"
+                    android:id="@+id/checkpoint5"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:minHeight="50dp"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="1dp" />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:text="6"
+                    android:id="@+id/checkpoint6"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:minHeight="50dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginBottom="25dp" />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:text="7"
+                    android:id="@+id/checkpoint7"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:minHeight="50dp"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="67dp"
+                    android:layout_marginRight="8dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <!-- FOOTER NAVIGATION -->
+        <LinearLayout
+            android:id="@+id/footer_border"
+            android:background="@color/dark_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_above="@+id/footer"
+            android:orientation="horizontal" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@color/grey"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/footer">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/tab1">
+                <ImageButton
+                    android:id="@+id/tab1_icon"
+                    android:layout_weight="2"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/grey"
+                    android:src="@drawable/ic_icon1"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tab1_text"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:text="Home" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/tab2">
+                <ImageButton
+                    android:id="@+id/tab2_icon"
+                    android:layout_weight="2"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/grey"
+                    android:src="@drawable/ic_icon2"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:id="@+id/tab2_text"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    android:text="About" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/tab3">
+                <ImageButton
+                    android:id="@+id/tab3_icon"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/grey"
+                    android:src="@drawable/ic_icon3"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tab3_text"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Donate" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/tab4">
+                <ImageButton
+                    android:id="@+id/tab4_icon"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/grey"
+                    android:src="@drawable/ic_icon4"
+                    android:clickable="true"
+                    android:fontFamily="sans-serif-light" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tab4_text"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Contact" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
 </RelativeLayout>

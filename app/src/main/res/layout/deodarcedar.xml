@@ -21,7 +21,7 @@
 
         <ImageView android:id="@+id/deodarCedarImg"
             android:layout_width="300dp" android:layout_height="300dp"
-            android:src="@drawable/deodarCedar"
+            android:src="@drawable/deodarcedar"
             style="@style/myImageView"
             android:layout_gravity="center_horizontal"
             android:gravity="center"/>
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:gravity="center"
-            android:text="Cedrus deodara. 2016. [Internet]. The University of Arizona; [cited 2017 Feb 17]. Available from https://apps.cals.arizona.edu/arboretum/taxon.aspx?id=61"
+            android:text="Cedrus deodara. 2016. [Internet]. The University of Arizona; [cited 2017 Feb 17]. Available from https://apps.cals.arizona.edu/arboretum/taxon.aspx?id=61\n"
             android:id="@+id/text5"
             android:layout_gravity="center_horizontal"
             android:textColor="#000000" />

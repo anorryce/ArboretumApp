@@ -3,7 +3,8 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/bottomtoolbarmain"
 android:layout_width="match_parent"
-android:layout_height="match_parent">
+android:layout_height="match_parent"
+tools:context=".MainActivity">
 <RelativeLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -43,7 +44,7 @@ android:layout_height="match_parent">
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:gravity="center"
-                android:text="Aboretum App" />
+                android:text="Checkpoint 1" />
         </LinearLayout>
         <LinearLayout
             android:id="@+id/header_menu_right"
@@ -61,117 +62,32 @@ android:layout_height="match_parent">
         </LinearLayout>
     </LinearLayout>
     <!-- CONTENT -->
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/information_background">
-        <LinearLayout
-            android:orientation="vertical" android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:weightSum="1"
-            android:background="@drawable/information_background">
+    <LinearLayout
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/checkpoint1"
+        android:id="@+id/content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="0.0dp">
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="\nGingko Tree\n(Gingko biloba)\n"
-                android:id="@+id/Title"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                />
 
-            <ImageView android:id="@+id/liveOakImg"
-                android:layout_width="300dp" android:layout_height="300dp"
-                android:src="@drawable/cherrytree"
-                style="@style/myImageView"
-                android:layout_gravity="center_horizontal"
-                android:rotation="180"
-                android:gravity="center"
-                android:scaleType="fitCenter" />
-
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:id="@+id/Subtitle1"
-                android:layout_gravity="center_horizontal"
-                android:text="\nAn Ancient Past\n"
-                android:textStyle="bold|italic"
-                android:textColor="#000000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="The Gingkoes flourished in the Mesozoic era (which occurred between 65 and 251 million years ago) but have become quite rare in modern times. Fossil records show that these trees once lived in Europe and North America, but became locally extinct. The only area where they managed to cling to life was in Asia. Today, the Gingko biloba is the only species of Gingko tree that is still alive. Despite its near extinction, the tree has been re-introduced to many areas and is able to be grown in most temperate regions of the world including Greenwood, South Carolina (Crane 2013)."
-                android:id="@+id/text1"
-                android:textColor="#000000"
-                android:gravity="center"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:id="@+id/Subtitle2"
-                android:layout_gravity="center_horizontal"
-                android:text="\nIn Culture and Medicine\n"
-                android:textStyle="bold|italic"
-                android:textColor="#000000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="The Live oak wood has an intriguing place in history as a shipbuilding component. Perhaps the most famous ship to be built with the Live oak wood was the USS Constitution. The USS Constitution was one of the first warships commissioned in America and became infamous in the War of 1812 when the cannonballs fired at it bounced off its hard wooden hull. The ship became known as “Old Ironsides” and is still maintained and used by the Navy today (USS Constitution)."
-                android:id="@+id/text2"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center"
-                android:textColor="#000000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:id="@+id/Subtitle3"
-                android:layout_gravity="center_horizontal"
-                android:text="\nThe Science Corner\n"
-                android:textStyle="bold|italic"
-                android:textColor="#000000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="The flowers of the Japanese pagoda tree contain Rutin, a substance that has anti-inflammatory and antioxidant properties (Japanese Pagoda). It may also be useful in preventing blood clots and aiding in the prevention of heart attacks and strokes, and has been used in traditional Chinese medicine. However, the pea-like fruits of the tree are toxic (International Tree Tour)."
-                android:id="@+id/text3"
-                android:gravity="center"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#000000" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:id="@+id/Subtitle4"
-                android:layout_gravity="center_horizontal"
-                android:text="\nResources Cited\n"
-                android:textStyle="bold|italic"
-                android:textColor="#000000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Crane P. 2013. Ginkgo: The Tree That Time Forgot. New Haven (CT): Yale University Press.\n
-Moore LM and Wilson JDW. 2003. Plant Guide: Gingko. [Internet]. USDA Natural Resources Conservation Service; [cited 2017 Jan 28]. Available from https://plants.usda.gov/plantguide/pdf/pg_ginkg.pdf\n"
-                android:id="@+id/text4"
-                android:gravity="center"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#000000" />
-        </LinearLayout>
-    </ScrollView>
+                android:layout_height="125dp"
+                android:text="Deodar"
+                android:id="@+id/button"
+                android:layout_gravity="right|center_vertical"
+                android:background="#3411d000"
+                android:layout_marginBottom="25dp" />
+        </FrameLayout>
+    </LinearLayout>
     <!-- FOOTER NAVIGATION -->
     <LinearLayout
         android:id="@+id/footer_border"
